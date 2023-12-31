@@ -10,12 +10,14 @@ body {
   .title {
     font-size: 36px;
     font-weight: 900;
+    text-align: center;
   }
   .plants {
     display: flex;
   }
   .info {
     display: flex;
+    flex-direction: column;
   }
 
 
