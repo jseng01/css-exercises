@@ -27,6 +27,7 @@ input {
 }
 ul {
     list-style: none;
+    gap: 10px;
 }
 a {
     text-decoration: none;
@@ -34,16 +35,34 @@ a {
 .header{
     display: flex;
     color: grey;
+    margin-bottom: auto;
 }
 .left-links {
     display: flex;
+    flex: 1 0 auto;
+    justify-content: start;
 }
 .right-links {
     display: flex;
     flex: 1 0 auto;
     justify-content: end;
-    gap: 25px;
+    
+}
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 .content {
- 
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer {
+    display: flex;
+    margin-top: auto;
 }
