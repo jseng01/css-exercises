@@ -19,11 +19,7 @@ body {
     gap: 52px;
   }
   .info {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 200px;
-    flex-wrap: wrap;
-    align-items: center;
+    max-width: 200px;
   }
 
 
