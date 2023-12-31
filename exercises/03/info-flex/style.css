@@ -14,7 +14,9 @@ body {
   .plants {
     display: flex;
   }
-
+  .info {
+    display: flex;
+  }
 
 
 
