@@ -16,6 +16,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
 }
 
 input {
@@ -28,9 +29,13 @@ input {
 ul {
     list-style: none;
     gap: 10px;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
 }
 a {
     text-decoration: none;
+    color: black;
+    padding: 8px;
 }
 .header{
     display: flex;
@@ -40,7 +45,7 @@ a {
 .left-links {
     display: flex;
     flex: 1 0 auto;
-    justify-content: start;
+    justify-self: start;
 }
 .right-links {
     display: flex;
@@ -65,4 +70,5 @@ a {
 .footer {
     display: flex;
     margin-top: auto;
+    background-color: rgba(119, 136, 153, 0.5);
 }
