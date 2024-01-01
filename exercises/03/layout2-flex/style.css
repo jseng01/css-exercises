@@ -35,11 +35,12 @@ body {
   .sidebar {
       display: flex;
       flex-direction: column;
-      flex: 1 0 auto;
+      flex: 0 0 auto;
       align-content: start;
     width: 300px;
     background: royalblue;
     box-sizing: border-box;
+    padding: 16px;
   }
     .content {
       display: flex;  
@@ -47,10 +48,21 @@ body {
 
       
     }
+    .cards {
+      display: flex;
+      flex: 0 1 auto;
+      gap: 32px;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      padding: 32px;
+    }
   .card {
     border: 1px solid #eee;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 4px;
+      padding: 16px;
+      width: 350px;
+      height: 325px;
   }
     a {
         font-size: 24px;
@@ -59,6 +71,6 @@ body {
         
     }
     ul {
-        padding-inline-start: 16px;
+        padding-inline-start: 0px;
         list-style-type: none;
     }
