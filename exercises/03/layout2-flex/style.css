@@ -3,7 +3,12 @@ body {
     margin: 0;
     min-height: 100vh;
   }
-  
+  .wrapper {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+      justify-content: flex-start;
+  }
   .header {
       display: flex;
     height: 72px;
@@ -15,7 +20,13 @@ body {
       padding-left: 16px;
   }
   
-  .footer {
+  .footer { 
+      display: flex;
+      justify-content: center; 
+      align-items: center;
+      flex-direction: column;
+      margin-top: auto;
+      flex: 0 1 auto;
     height: 72px;
     background: #eee;
     color: darkmagenta;
