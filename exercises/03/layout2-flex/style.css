@@ -33,6 +33,9 @@ body {
   }
   
   .sidebar {
+      display: flex;
+      flex-direction: column;
+      flex: 1 0 auto;
     width: 300px;
     background: royalblue;
     box-sizing: border-box;
