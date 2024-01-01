@@ -36,11 +36,17 @@ body {
       display: flex;
       flex-direction: column;
       flex: 1 0 auto;
+      align-content: start;
     width: 300px;
     background: royalblue;
     box-sizing: border-box;
   }
-  
+    .content {
+      display: flex;  
+      flex: 1 1 auto;
+
+      
+    }
   .card {
     border: 1px solid #eee;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
@@ -50,8 +56,9 @@ body {
         font-size: 24px;
         color: white;
         text-decoration: none;       
+        
     }
     ul {
-
+        padding-inline-start: 16px;
         list-style-type: none;
     }
